@@ -21,6 +21,8 @@ npm run preview
 
 The production build is written to `dist/`.
 
+GitHub Actions runs `npm ci`, lint, and the TypeScript/production build on pull requests and pushes to `main`, using Node.js 24.
+
 ## Project structure
 
 - `src/App.tsx`: starter page
@@ -30,3 +32,7 @@ The production build is written to `dist/`.
 - `.agents/`: existing project agent resources
 
 Environment files are ignored by Git. Only variables prefixed with `VITE_` are exposed to the browser; never put secrets in them.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
