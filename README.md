@@ -7,7 +7,7 @@ Website starter built with React, Vite, and TypeScript.
 Use Node.js 24 LTS and npm.
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
@@ -32,6 +32,10 @@ GitHub Actions runs `npm ci`, lint, and the TypeScript/production build on pull 
 - `.agents/`: existing project agent resources
 
 Environment files are ignored by Git. Only variables prefixed with `VITE_` are exposed to the browser; never put secrets in them.
+
+## Project guidance
+
+Read [AGENTS.md](AGENTS.md) for the project workflow and [STARTER_STATUS.md](STARTER_STATUS.md) for decisions and remaining work. No environment variables are currently required.
 
 ## License
 
