@@ -59,13 +59,11 @@ git fetch origin
 git switch mikedev/first-code
 ```
 
-## Working with agents and skills
+## Project guidance
 
-Read [AGENTS.md](AGENTS.md), the [agent collaboration workflow](.agents/agents/README.md), and the applicable role and skills before making changes. The repository includes 10 agent role files, their workflow README, and 24 reusable skills in [`.agents/skils/`](.agents/skils/).
+See [AGENTS.md](AGENTS.md) for the agent and skill workflow, and [STARTER_STATUS.md](STARTER_STATUS.md) for current decisions and the next-session handoff.
 
-The Lead Software Engineer coordinates one focused specialist at a time. Guidance borrowed from other projects does not define Dawn Idea's requirements. See [STARTER_STATUS.md](STARTER_STATUS.md) for current decisions and remaining work.
-
-Keep secrets, local references, dependencies, and generated output out of Git. Any future `VITE_` environment variables are browser-visible and must not contain secrets.
+Keep secrets and local references out of Git. Any future `VITE_` variables are browser-visible and must not contain secrets.
 
 ## License
 
